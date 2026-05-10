@@ -1,0 +1,15 @@
+DOCTOR: Good morning, Mr. Smith. What brings you in today?
+PATIENT: Morning, doctor. I've been feeling this heavy pressure in my chest since yesterday evening. It's like an elephant is sitting on me. 
+DOCTOR: I'm sorry to hear that. Does the pain go anywhere else?
+PATIENT: Yeah, it kind of travels down my left arm and sometimes into my jaw. 
+DOCTOR: Any shortness of breath or sweating?
+PATIENT: Definitely short of breath, especially when I try to walk around. I felt quite clammy earlier.
+DOCTOR: Do you have any known medical conditions?
+PATIENT: I've got high blood pressure and diabetes. 
+DOCTOR: What medications are you currently taking?
+PATIENT: I take Metformin for the sugar and Lisinopril for my blood pressure. 
+DOCTOR: Are you allergic to any medications?
+PATIENT: Not that I know of. 
+DOCTOR: Let's take your vitals. Your blood pressure is high at 165/98, and your heart rate is 112 beats per minute. Your oxygen saturation is 94% on room air.
+PATIENT: Is it serious, doctor?
+DOCTOR: We need to rule out a heart-related issue immediately. I'm ordering an EKG and some lab work, specifically troponin levels.

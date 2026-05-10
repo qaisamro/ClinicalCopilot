@@ -1,0 +1,73 @@
+{
+    "structured_entities": {
+        "demographics": {
+            "name": "Mr. Smith",
+            "gender": "Male"
+        },
+        "chief_complaint": "Heavy chest pressure described as 'an elephant sitting on me' since yesterday evening.",
+        "symptoms": [
+            {
+                "symptom": "Chest pressure",
+                "duration": "Since yesterday evening",
+                "details": "Radiates to left arm and jaw"
+            },
+            {
+                "symptom": "Shortness of breath",
+                "duration": "Since yesterday evening",
+                "details": "Exacerbated by walking"
+            },
+            {
+                "symptom": "Clamminess/Diaphoresis",
+                "duration": "Earlier today",
+                "details": "Reported feeling clammy"
+            }
+        ],
+        "medical_history": [
+            "Hypertension",
+            "Diabetes"
+        ],
+        "medications": [
+            "Metformin",
+            "Lisinopril"
+        ],
+        "allergies": [
+            "No known drug allergies"
+        ],
+        "vitals": {
+            "blood_pressure": "165/98 mmHg",
+            "heart_rate": "112 bpm",
+            "oxygen_saturation": "94% on room air"
+        },
+        "labs": [
+            "EKG (Ordered)",
+            "Troponin (Ordered)"
+        ]
+    },
+    "soap_note": {
+        "subjective": "54-year-old male with a history of HTN and DM2 presents with heavy chest pressure ('elephant sitting on me') starting yesterday evening. Pain radiates to the left arm and jaw. Patient reports associated dyspnea on exertion and diaphoresis.",
+        "objective": "Patient appears acutely ill and clammy. BP: 165/98, HR: 112, SpO2: 94%. Cardiac: Tachycardic, no murmurs noted. Respiratory: Clear to auscultation bilaterally.",
+        "assessment": "Chest pain, suspicious for Acute Coronary Syndrome (ACS) / Myocardial Infarction. Differential includes unstable angina and pulmonary embolism.",
+        "plan": "1. Urgent 12-lead EKG. 2. Stat Troponin, CBC, CMP. 3. Administer Aspirin 324mg PO. 4. Continuous cardiac monitoring. 5. Notify cardiology for potential intervention."
+    },
+    "drug_interactions": [
+        "No major interactions detected based on provided data."
+    ],
+    "icd10_codes": [
+        {
+            "code": "I20.9",
+            "description": "Angina pectoris, unspecified",
+            "reason": "Patient's primary complaint of symptomatic chest pressure."
+        },
+        {
+            "code": "I10",
+            "description": "Essential (primary) hypertension",
+            "reason": "Historical diagnosis and acutely elevated BP reading."
+        },
+        {
+            "code": "E11.9",
+            "description": "Type 2 diabetes mellitus without complications",
+            "reason": "Confirmed medical history and medication (Metformin)."
+        }
+    ],
+    "confidence_score": 0.95
+}

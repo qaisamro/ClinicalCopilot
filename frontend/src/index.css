@@ -1,0 +1,4 @@
+/* Reset handled inside App.jsx via <style> tag */
+body {
+  margin: 0;
+}
